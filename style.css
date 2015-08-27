@@ -1,0 +1,41 @@
+body {
+	background-image: url("backgroundRepeat.gif");
+	background-repeat: repeat;
+}
+#nathanImage {
+	max-width: 10%;
+	margin: 0 auto;
+}
+#nathanTitle {
+	color: white;
+	font-size: 24px;
+	text-align: center;
+	padding: 20px;
+}
+#quoteWrapper {
+	max-width: 60%;
+	margin: 0 auto;
+}
+.quote{
+	color: white;
+	padding: 20px;
+	margin: 10px;
+	background: rgba(255, 182, 193, 0.8);
+	font-size: 20px;
+	box-shadow: 5px 5px 5px #ffe1e6;
+}
+#input {
+	width:60%;
+	margin: 0 auto;
+}
+.search {
+	width: 100%;
+	color: black;
+	letter-spacing: 1px;
+	padding: 15px 15px 15px 15px;
+	background: rgba(255, 255, 255, 0.5);
+	border: 0px;
+}
+.search:hover{
+	background: rgba(255, 255, 255, 0.8);
+}
