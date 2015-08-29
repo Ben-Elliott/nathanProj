@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<header>
+	<link rel="stylesheet" href="style.css">
+	<script src="scripting.js"></script>
+</header>
+<body onload= "page()">
+<div id="nathanImage"><img src="Nathan.png" /></div>
+<div id="quoteWrapper">
+</div>
+<div id="input">
+	<form action="http://localhost/xampp/post.php" method="post">
+		<input id="inputbox" name="posting" type="text" placeholder="Nathan has said..." class="search" onkeypress="runScript(event)" align="center"/>
+		<input type="submit" style="display: none" />
+	</form>
+</div>
+<div id="introductionWrapper">
+	<div id="introduction"> This is a website I created to showcase Nathan's ludicrous life statements.  You may post anything Nathan has said!  However, please do not spam this page :(.  I'm hoping to build in likes within the next week, so stay updated!</div>
+</div>
+</body>
+</html>
